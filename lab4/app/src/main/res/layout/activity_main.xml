@@ -13,8 +13,9 @@
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="206dp"
-        android:src="@mipmap/ic_launcher"
-        tools:src="@drawable/aueb" />
+        android:src="@drawable/aueb"
+        tools:src="@drawable/aueb"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/textView"
@@ -36,8 +37,9 @@
         android:layout_width="258dp"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Sleeping time"
+        android:hint="@string/sleeping_time"
         android:inputType="numberDecimal"
-        android:textColor="@android:color/background_light" />
+        android:textColor="@android:color/background_light"
+        android:importantForAutofill="no" />
 
 </LinearLayout>

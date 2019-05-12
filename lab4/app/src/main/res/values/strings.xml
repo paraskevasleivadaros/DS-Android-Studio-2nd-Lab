@@ -4,4 +4,6 @@
     <string name="click_android">Click on the android</string>
     <string name="changed_text">Text to be changed</string>
     <string name="app_name">TestAndroid</string>
+    <string name="todo">TODO</string>
+    <string name="sleeping_time">Sleeping time</string>
 </resources>
