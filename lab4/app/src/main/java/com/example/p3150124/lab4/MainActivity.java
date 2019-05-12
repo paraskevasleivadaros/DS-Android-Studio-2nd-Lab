@@ -56,7 +56,7 @@ public class MainActivity extends Activity {
 
         @Override
         protected void onPreExecute() {
-            progressDialog = ProgressDialog.show(MainActivity.this, "ProgressDialog", "Wait for " + time.getText().toString() + " seconds");
+            progressDialog = ProgressDialog.show(MainActivity.this, "Running..", "Wait for " + time.getText().toString() + " seconds");
         }
 
         @Override
