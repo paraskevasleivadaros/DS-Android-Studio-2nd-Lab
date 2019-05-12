@@ -1,0 +1,7 @@
+<resources>
+    <string name="ds_2019">Distributed Systems 2018-19</string>
+    <string name="button_enter">Enter</string>
+    <string name="click_android">Click on the android</string>
+    <string name="changed_text">Text to be changed</string>
+    <string name="app_name">TestAndroid</string>
+</resources>
